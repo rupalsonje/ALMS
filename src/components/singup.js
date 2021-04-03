@@ -17,7 +17,7 @@ class Signup extends Component{
                             <div className="check">
                                 <input type="checkbox" id="agree-terms"></input>
                                 <label for="agree-terms">Agree to
-                                    {/* <a href="#">Terms &amp; Conditions</a> */}
+                                    <a href="#">Terms &amp; Conditions</a>
                                 </label>
                             </div>
                             <button type="submit" id="signup_submit" className="button sign-up-btn disabled" disabled>Sign Up</button>

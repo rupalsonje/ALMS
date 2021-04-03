@@ -1,6 +1,6 @@
 .app1 {
     background-image: linear-gradient(to top right, #3f51b5, #e91e63);
-    /* min-height: 100vh; */
+    height: 80vh;
     /* margin: 0; */
     padding: 10vh 0;
     /* font-family: 'Secular One', sans-serif; */
@@ -44,7 +44,6 @@
   .left-container {
     width: 40%;
     height: 100%;
-    margin: 10px auto;
     background-color: white;
     border-radius: 10px 0 0 10px;
     display: flex;
@@ -59,12 +58,13 @@
   
   .right-container {
     width: 60%;
-    height: 100%;
+    /* height: 100%; */
     background-image: url(https://images.unsplash.com/photo-1519408469771-2586093c3f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2147&q=80);
     background-position: center;
     background-size: cover;
     border-radius: 0 10px 10px 0;
   }
+
   .signup-form {
     width: 70%;
     margin: auto;
@@ -125,7 +125,6 @@
     display: block;
     width: 50%;
     margin: auto;
-    margin-top: 2rem;
   }
   
   .signup-form button:hover{
