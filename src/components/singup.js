@@ -10,17 +10,24 @@ class Signup extends Component{
                     <h1>So let's sign up</h1>
                     <div Style="width:100%">
                         <form className="signup-form">
-                            <input type="text" id="first-name" placeholder="First Name"></input>
-                            <input type="text" id="last-name" placeholder="Last Name"></input>
+                            <input type="text" id="name" placeholder="Name"></input>
                             <input type="email" id="email" placeholder="E-mail"></input>
+                            <input type="number" id="number" placeholder="Phone Number"></input>
+                            <select name="role" id="role" placeholder="Select a role">
+                                <option value="select a role" disabled>Select a Role</option>
+                                <option value="donor">Donor</option>
+                                <option value="volunteer">Volunteer</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                            <input type="text" id="address" placeholder="Address"></input>
                             <input type="password" id="password" placeholder="Password"></input>
-                            <div className="check">
+                            {/* <div className="check">
                                 <input type="checkbox" id="agree-terms"></input>
                                 <label for="agree-terms">Agree to
                                     <a href="#">Terms &amp; Conditions</a>
                                 </label>
-                            </div>
-                            <button type="submit" id="signup_submit" className="button sign-up-btn disabled" disabled>Sign Up</button>
+                            </div> */}
+                            <button type="submit" id="signup_submit" className="button sign-up-btn">Sign Up</button>
                         </form>
                     </div>
                     <div className="signin-link-container">
