@@ -111,7 +111,9 @@
     display: flex;
     align-items: center;
   } */
-  
+  .log-in input{
+      margin: 0.8rem auto;
+  }
   .signup-form button {
     color: white;
     background-color: #bf360c;

@@ -10,17 +10,17 @@ class Signup extends Component{
                     <h1>So let's sign up</h1>
                     <div Style="width:100%">
                         <form className="signup-form">
-                            <input type="text" id="name" placeholder="Name"></input>
-                            <input type="email" id="email" placeholder="E-mail"></input>
-                            <input type="number" id="number" placeholder="Phone Number"></input>
-                            <select name="role" id="role" placeholder="Select a role">
+                            <input type="text" id="name" placeholder="Name" required></input>
+                            <input type="email" id="email" placeholder="E-mail" required></input>
+                            <input type="number" id="number" placeholder="Phone Number" required></input>
+                            <select name="role" id="role" placeholder="Select a role" required>
                                 <option value="select a role" disabled>Select a Role</option>
                                 <option value="donor">Donor</option>
                                 <option value="volunteer">Volunteer</option>
                                 <option value="admin">Admin</option>
                             </select>
-                            <input type="text" id="address" placeholder="Address"></input>
-                            <input type="password" id="password" placeholder="Password"></input>
+                            <input type="text" id="address" placeholder="Address" required></input>
+                            <input type="password" id="password" placeholder="Password" required></input>
                             {/* <div className="check">
                                 <input type="checkbox" id="agree-terms"></input>
                                 <label for="agree-terms">Agree to
